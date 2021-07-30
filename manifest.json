@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Social Handler",
+    "description": "Quick Launch your Social Media",
+    "version":"1.0.0",
+    "icons":{"40":"you!.png"}, 
+    "browser_action":{
+        "default_icon":"you!.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+}
